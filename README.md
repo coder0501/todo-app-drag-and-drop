@@ -33,7 +33,7 @@ MongoDB as the database
 #### Clone the repository:
 
 
-git clone https://github.com/yourusername/mern-todo-app.git
+git clone https://github.com/coder0501/todo-app-drag-and-drop.git
 cd mern-todo-app
 
 #### Install dependencies:
