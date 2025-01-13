@@ -69,25 +69,3 @@ POST /tasks – Create a new task.
 PUT /tasks/:id – Update a task's status.
 DELETE /tasks/:id – Delete a task.
 
-
-### Folder Structure
-
-
-mern-todo-app/
-│
-├── client/                    # Frontend application
-│   ├── src/
-│   │   ├── components/        # UI components (AddTaskForm, TaskColumn, DeleteDropZone)
-│   │   ├── utils/             # API helper functions
-│   │   ├── App.tsx            # Main application
-│   │   └── index.tsx          # Application entry point
-│   ├── public/
-│   └── package.json
-│
-├── server/                    # Backend application
-│   ├── models/                # Mongoose schemas
-│   ├── routes/                # API routes
-│   ├── server.js              # Main server file
-│   └── package.json
-│
-└── README.md                  # Project documentation
