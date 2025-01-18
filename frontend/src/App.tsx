@@ -13,6 +13,7 @@ interface Task {
 }
 
 const App: React.FC = () => {
+
   // State to store the list of tasks
   const [tasks, setTasks] = useState<Task[]>([]);
 

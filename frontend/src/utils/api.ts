@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/tasks';
+const API_URL = `${import.meta.env.VITE_REACT_APP_BACKEND_URL}/tasks`;
 
 export const fetchTasks = async () => {
   const response = await axios.get(API_URL);
